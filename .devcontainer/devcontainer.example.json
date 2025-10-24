@@ -1,0 +1,19 @@
+{
+  "name": "UI-Library-Testing",
+  "forwardPorts": [
+    3000,
+    3001
+  ],
+  "dockerFile": "../Dockerfile",
+  "postStartCommand": "bun save-env <s3-access-key> <s3-secret-key>",
+  "workspaceFolder": "/workspace",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "bradlc.vscode-tailwindcss"
+      ]
+    }
+  }
+}

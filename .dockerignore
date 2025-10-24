@@ -1,0 +1,14 @@
+mui/node_modules
+mui/.next
+
+shadcn/node_modules
+shadcn/.next
+
+node_modules
+.devcontainer
+Dockerfile
+.git
+.gitignore
+code.tar
+id.txt
+.env
